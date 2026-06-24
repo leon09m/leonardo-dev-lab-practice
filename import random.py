@@ -1,0 +1,20 @@
+import random
+
+options = ['rock', 'paper', 'scissors']
+
+computer = random.choice(options)
+
+player = input("Choose rock, paper, or scissors: ").lower()
+
+print("Computer chose:" +  computer)    
+
+if player == computer: 
+    print("It's a tie!")   
+elif (player == 'rock' and computer == 'scissors') or \
+     (player == 'paper' and computer == 'rock') or \
+     (player == 'scissors' and computer == 'paper'):
+    print("You win!")
+elif player in options:
+    print("computer wins!")
+else:
+    print("Invalid choice!")
