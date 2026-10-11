@@ -1,7 +1,7 @@
 import random
 from sre_constants import IN
 
-palavras = ["python", "programacao", "desenvolvimento", "computador", "tecnologia"]
+palavras = ["betinha", "Maria", "desenvolvimento", "computador", "tecnologia", "programa", "bigode"]
 
 palavra = random.choice(palavras)
 letras_descobertas = ["_"]  * len(palavra)
